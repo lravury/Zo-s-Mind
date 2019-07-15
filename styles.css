@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  color: #F1F4C8;
+}
+h3{
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.pictures{
+  display: flex;
+  justify-content: center;
+}
+
+.pictures img{
+  width: 200px;
+  object-fit: cover;
+  padding-top: 10px;
+  padding-right:10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.imageContainer > img:hover {
+  width: 500px;
+  height: 200px;
+}
+.button{
+  text-align: center;
+}
+#tip{
+  text-align: center;
+  font-size: 30px;
+  color: #F1F4C8
+}
+body {
+  background-color: #9C9FA3;
+}
